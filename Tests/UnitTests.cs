@@ -36,7 +36,7 @@ namespace TravisCILab
         public void Subtract_ValidKotha() {
             Assert.AreEqual(4, Program.Subtract("6", "2"));
             Assert.AreEqual(3, Program.Subtract("4", "1"));
-            Assert.AreEqual(18, Program.Subtract("15", "7"));
+            Assert.AreEqual(8, Program.Subtract("15", "7"));
         }
 
         [Test]
